@@ -17,6 +17,12 @@ const handleUserInput = (data) => {
   if (data === "d") {
     connection.write("Move: right");
   }
+  if (data === "q") {
+    connection.write("Say: pepehands");
+  }
+  if (data === "e") {
+    connection.write("Say: kekW");
+  }
 };
 
 // this function sets up our ability to listen to what is inputted into the command line, then begins listening for user input and handles if CTRL + C is inputted
