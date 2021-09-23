@@ -3,6 +3,6 @@ const { setupInput } = require("./input");
 
 console.log("Connecting ...");
 
-connect();
+let output = connect();
 
-setupInput();
+setupInput(output);
